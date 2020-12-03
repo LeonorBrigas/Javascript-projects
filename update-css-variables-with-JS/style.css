@@ -1,0 +1,36 @@
+:root {
+  --base: #ffc600;
+  --spacing: 10px;
+  --blur: 10px;
+}
+
+body{
+  text-align: center;
+  background: #193549;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+  font-size: 50px;
+}
+
+input {
+  width: 100px;
+
+}
+
+label {
+  font-weight: 50;
+  font-size: 25px;
+}
+
+img {
+  padding: var(--spacing);
+  background: var(--base);
+  filter: blur(var(--blur));
+  margin-top: 30px;
+  width: 300px;
+}
+
+.hl {
+  color: var(--base);
+}
